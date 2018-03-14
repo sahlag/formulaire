@@ -1,0 +1,69 @@
+<h3>Formulaire</h3>	  
+			<form action="traitement.php" method="post">
+				<fieldset>
+		    	<legend>Identité</legend>
+				<p>
+					<label for="name">Nom:</label>
+					<input type="text" name="Nom" id="Nom"  required />
+				</p>
+				<p>
+					<label for="Prenom">Prenom:</label>
+					<input type="text" name="Prenom" id="Prenom" required/>
+				</p>
+				<p>
+					<label for="naissance">Date de naissance</label>
+					<input type="Date" name="naissance" id="naissance" required />
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Coordonnées</legend>
+				<p>
+					<label for="telephone">Numero de telephone</label>
+					<input type="tel" name="telephone" id="telephone" required />
+				</p>
+				<p>Adresse</p>
+				<p>
+					<label for="rue">Rue n°</label>
+					<input type="number" name="rue" id="rue"/>
+				</p>
+				<p>
+					<label for="Adress">Nom de la rue</label>
+					<input type="text" name="Adresse" id="Adresse">
+				</p>
+				<p>
+					<label for="Adresse">BAT-ESC-APP</label>
+					<input type="text" name="Adresse" id="Adresse">
+				</p>
+				<p>
+					<label for="code">code pstale</label>
+					<input type="text" name="code" id="code">
+				</p>
+				<p>
+					<label for="ville">Ville</label>
+					<input type="text" name="ville" id="ville">
+				</p>
+				<p>
+					<label for="pays">votre pays</label>
+					<select name="pays" id="pays" />
+					    <option value="france">France</option>
+						<option value="italie">Italie</option>
+						<option value="canada">Canada</option>
+						<option value="Chine">China</option>
+					</select>
+				</p>
+				<p>
+					<label for="email">Adresse mail:</label>
+					<input type="email" name="user_mail" id="user_mail" required=/>
+				</p>
+				</fieldset>
+				<fieldset>
+					<legend>Message</legend>
+				<p>
+					<label for="message">Votre message:</label>
+					<textarea name="user_message" id="user_message" required></textarea>
+				</p>
+				</fieldset>
+				<div>
+				    <input type="submit" value="Envoyer" />
+				 </div>   	
+			</form>
